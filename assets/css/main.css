@@ -3709,10 +3709,10 @@
 		}
 
 		#banner.back{
-						background: -moz-linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(23, 16, 99, 1) 53%, rgba(0, 0, 0, 1) 100%);
-							background: -webkit-linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(23, 16, 99, 1) 53%, rgba(0, 0, 0, 1) 100%);
-							background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(23, 16, 99, 1) 53%, rgba(0, 0, 0, 1) 100%);
-							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#000000", GradientType=1);
+						background: -moz-linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(23, 16, 99, 1) 53%, rgba(0, 0, 0, 1) 100%)!important;
+							background: -webkit-linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(23, 16, 99, 1) 53%, rgba(0, 0, 0, 1) 100%)!important;
+							background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(23, 16, 99, 1) 53%, rgba(0, 0, 0, 1) 100%)!important;
+							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024", endColorstr="#000000", GradientType=1)!important;
 		}
 		@media screen and (max-width: 1280px) {
 
@@ -4220,6 +4220,7 @@
     border: 2px groove #aaaaaa;
     margin: 3px;
     padding: 4px;
+	width: 90%;
 }
 
 .imageanchors img:hover{
